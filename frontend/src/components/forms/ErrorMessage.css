@@ -1,0 +1,6 @@
+.error-message {
+  color: var(--secondary);
+  font-size: 14px;
+  margin: 0 auto;
+  font-weight: 600;
+}

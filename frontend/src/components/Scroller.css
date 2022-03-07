@@ -1,0 +1,44 @@
+.scroller {
+  color: var(--primary);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 8%;
+  margin-top: 20px;
+}
+
+.left,
+.right {
+  background-color: white;
+
+  border-radius: 100%;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+
+  font-size: 50px;
+
+  /* Prevent text selection */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.display {
+  background-color: white;
+
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 30px;
+  border-radius: 0.5em;
+
+  text-align: center;
+  font-size: 35px;
+}

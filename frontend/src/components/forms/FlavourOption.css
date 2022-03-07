@@ -1,0 +1,10 @@
+.flavour-option {
+  color: white;
+  border-radius: 1em;
+  width: fit-content;
+  padding: 3px 8px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

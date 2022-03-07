@@ -1,0 +1,47 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/* Variables */
+:root {
+  --primary: rgb(231, 107, 116);
+  --secondary: rgb(234, 82, 111);
+  --tertiary: rgb(215, 175, 112);
+  --quaternary: rgb(88, 91, 86);
+
+  --primary-darker: #e24d58;
+  --secondary-darker: #e63557;
+  --tertiary-darker: #cfa055;
+  --quaternary-darker: #4f514d;
+}
+
+/* CSS Reset */
+
+/* Base Styles */
+body,
+html {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: "Open Sans";
+}
+
+html,
+body,
+#root {
+  overflow: auto;
+  height: 100%;
+}
+
+/* Classes */
+.drop-shadow {
+  filter: drop-shadow(27px 28px 34px rgba(234, 82, 111, 0.4));
+}
+
+.pushed-shadow {
+  filter: drop-shadow(20px 21px 16px rgba(234, 82, 111, 0.42));
+}

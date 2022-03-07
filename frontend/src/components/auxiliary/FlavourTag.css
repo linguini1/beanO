@@ -1,0 +1,10 @@
+.flavour-tag {
+  background-color: var(--tertiary);
+  color: white;
+
+  border-radius: 2em;
+  width: fit-content;
+
+  padding: 5px 10px;
+  margin: 0 6px;
+}

@@ -1,0 +1,11 @@
+.watermark {
+  color: rgba(215, 175, 112, 0.5);
+  font-size: 100px;
+  position: fixed;
+  z-index: -999;
+}
+
+.watermark p {
+  opacity: 0.5;
+  white-space: nowrap;
+}

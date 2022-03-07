@@ -1,0 +1,92 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-body {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  color: var(--quaternary);
+}
+
+.input-wrapper {
+  background-color: white;
+  border-radius: 1em;
+  width: 85%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.flavour-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 1em;
+  padding-top: 0;
+}
+
+#bean-name,
+#bean-colour,
+#bean-desc,
+#bean-price {
+  border-style: solid;
+  border-color: var(--tertiary);
+  border-width: 2px;
+  border-radius: 1em;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+#bean-colour,
+#bean-desc,
+#bean-price {
+  margin-top: 1em;
+}
+
+#bean-name:focus,
+#bean-colour:focus,
+#bean-desc:focus,
+#bean-price:focus {
+  outline-color: var(--secondary);
+}
+
+.bean-preview {
+  color: var(--quaternary);
+  font-size: 24px;
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+.bean-preview h3 {
+  max-width: 78%;
+}
+
+.create-form-submit {
+  color: white;
+  width: fit-content;
+  padding: 2px 20px;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  outline: none;
+  border-style: none;
+  border-radius: 1em;
+}
+
+.success-message {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
