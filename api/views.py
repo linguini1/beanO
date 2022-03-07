@@ -29,8 +29,15 @@ def getRoutes(request):
             "name": "beans/",
             "methods": {
                 "GET": "Gets a list of all the beans in the catalogue.",
+                "POST": "Sends bean information to be committed to the catalogue."
             }
         },
+        {
+            "name": "bean/<id>/",
+            "methods": {
+                "GET": "Gets the bean with an ID matching the ID passed through the URL."
+            },
+        }
     ]
 
     return Response(routes)
