@@ -12,6 +12,37 @@ is displayed. The user can also use the form on the "create" page to add their o
 
 The _on sale_ property of each bean can only be set through the Django administrator page.
 
+## UI Overview
+
+### Home Page
+The home page displays the collection logo and shows the navigation menu across the bottom of the screen.
+
+<div style="text-align: center;">
+    <img src="./docs/homepage.png" alt="Home Page" width="250">
+</div>
+
+### Collection Page
+The collection page displays all the beans in the collection through a sliding carousel. Users can navigate left and
+right, and see how many of the total beans they've looked through via the display underneath the carousel.
+
+<div style="text-align: center;">
+    <img src="./docs/collectionpage.png" alt="Home Page" width="250">
+    <img src="./docs/exampleBean.png" alt="Home Page" width="250">
+</div>
+
+### Create Page
+Users are invited to add their own beans to the collection! Beans require a name, colour, price and a short
+description. Users can also add tags to their beans to describe what categories they belong to. Categories are
+pre-determined.
+
+Notably, the bean icon next to the text `your bean` changes colour as the user inputs their desired bean colour
+in hex format.
+
+<div style="text-align: center;">
+    <img src="./docs/createpage.png" alt="Home Page" width="250">
+</div>
+
+
 ## Technologies
 - HTML
 - CSS
