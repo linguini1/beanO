@@ -28,3 +28,10 @@ not the main focus of this project.
 Finally, the API does have additional functionality not yet used in this project (the ability to fetch single beans' 
 data using an ID in the URL, and also a getRoutes URL that shows a list of endpoints). This additional functionality was
 added in case I wanted to use it later on.
+
+### Running From Fresh Install/Clone
+The project requires `npm install` and `npm build` to be run in the `./frontend` directory. This will create the 
+build that will be hosted by Django.
+
+Additionally, a `secretkey.py` containing the Django secret key must be created in `./beanO`. The secret key will be a 
+string stored in a variable called `secret_key`.
